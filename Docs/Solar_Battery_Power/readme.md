@@ -1,6 +1,6 @@
 # Solar Power and Battery Charger
 
-Using solar power can be tricky. This module accepts 6V solar panel power input, handles battery charging, and provides a continuous output voltage for operation.
+This module accepts 6V solar panel power input, handles battery charging, and provides a continuous output voltage for operation.
 
 ![](Solar_Battery_Power.jpg)
 
