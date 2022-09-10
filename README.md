@@ -6,7 +6,7 @@ All modules are 100% open source.
 
 ## Modules
 
-* **USB-C, Power, Reset** - USB-C connectivity for Core-Compute modules. Also includes Boot and Reset buttons, as well as up to `2A` of `3.3V` power, as well as a pass through `5V` USB power.
+* **[USB-C, Power, Reset](/Docs/USB-C_Power_Boot_Reset/)** - USB-C connectivity for Core-Compute modules. Also includes Boot and Reset buttons, as well as up to `2A` of `3.3V` power, as well as a pass through `5V` USB power.
 * **Solar Power/Battery Charging** - Accepts 6V solar panel power input, handles battery charging, and provides a continuous output voltage for operation.
 * **Dual Ethernet** - Provides a dual-port switching ethernet interface for the Core-Compute module.
 * **SD Card** - Micro SD-Card addon.
