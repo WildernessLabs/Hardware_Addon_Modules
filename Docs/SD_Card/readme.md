@@ -6,6 +6,13 @@ Micro SD-Card addon.
 
 ## Specificiations
 
+### EDA Symbol & Footprint
+
+![](Symbol_Footprint.png)
+
+Symbols and footprints have only been created for EasyEDA. We would welcome contributions here!
+* **[EasyEDA](https://easyeda.com/component/57e5fa36b2444a3a84e1e210c4eb4410)**
+
 ### Pinout
 
 | Pin(s) | Function |
