@@ -14,8 +14,7 @@ We use these modules in our own designs to reduce manufacturing complexity; by u
 | **[Solar Power/Battery Charging](/Docs/Solar_Battery_Power/)** | Accepts 6V solar panel power input, handles battery charging, and provides a continuous output voltage for operation. |  |
 | **[Dual Ethernet](/Docs/Dual_Ethernet/)** | Provides a dual-port switching ethernet interface for the Core-Compute module. | ![](Docs/Dual_Ethernet/Addon_Module_-_Dual_Ethernet.jpg) |
 | **[SD Card](/Docs/SD_Card/)** | Micro SD-Card addon. | ![](Docs/SD_Card/Addon_Module_-_SD_Card.jpg) |
-| **[Debug Headers](/Docs/Debug_Header/)** | Adds JTAG/SWO for the STM32F7 and ESP32 and UART debug output for the ESP32.
- | ![](Docs/Debug_Header/Addon_Module_-_Debug_Header.jpg) |
+| **[Debug Headers](/Docs/Debug_Header/)** | Adds JTAG/SWO for the STM32F7 and ESP32 and UART debug output for the ESP32. | ![](Docs/Debug_Header/Addon_Module_-_Debug_Header.jpg) |
 
 ## Purchasing
 
