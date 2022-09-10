@@ -2,7 +2,7 @@
 
 USB-C connectivity for Core-Compute modules. Also includes Boot and Reset buttons, as well as up to `2A` of `3.3V` power, as well as a pass through `5V` USB power.
 
-[TBD: board image]
+![Image of the module](Addon_Module_-_USB-C_Power_Reset_Boot.jpg)
 
 ## Specifications
 
@@ -40,4 +40,4 @@ Includes an `NCP1597AMNTWG` switching power supply that outputs up to `2A` of `3
 
 ## Design
 
-![](Schematic_v1.b.svg)
+![Schematic of the board.](Schematic_v1.b.svg)
