@@ -1,4 +1,6 @@
-# Hardware Addon Modules
+<img src="Docs/banner.jpg" style="margin-bottom:10px" />
+
+# Hardware_Addon_Modules
 
 These open source, castellated-SMT addon modules provide discrete hardware functionality needed to support common design patterns when building IoT applications. We have created them to help shorten your time to market by providing composable, drop-in modules that allow you to quickly put together custom hardware for your solutions.
 
