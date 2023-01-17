@@ -8,7 +8,9 @@ USB-C connectivity for Core-Compute modules. Also includes Boot and Reset button
 
 ### EDA Symbol & Footprint
 
-![](Symbol_Footprint.png)
+| Symbol | Footprint |
+|--------|-----------|
+| ![](Symbol.png) | ![](Footprint.png) |
 
 Symbols and footprints have only been created for EasyEDA. We would welcome contributions here!
 * **[EasyEDA](https://easyeda.com/component/bb77b894934d4be2804be0e1350d01af)**
