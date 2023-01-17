@@ -49,6 +49,8 @@ Includes an `NCP1597AMNTWG` switching power supply that outputs up to `2A` of `3
 
 ### v1.c
 
+This revision changed the design to prevent the 3V3 and 5V diodes from draining power when it was installed on a battery powered board.
+
 * Removed `3V3` LED.
 * Added diode to prevent backfeeding to USB.
 
