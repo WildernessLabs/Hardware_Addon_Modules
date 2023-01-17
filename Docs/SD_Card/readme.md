@@ -50,5 +50,3 @@ Symbols and footprints have only been created for EasyEDA. We would welcome cont
 * Initial design check-in.
 
 ![](Schematic_v1.b.svg)
-
-## Design
