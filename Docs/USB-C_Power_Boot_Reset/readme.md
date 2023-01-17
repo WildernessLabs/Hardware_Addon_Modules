@@ -39,12 +39,23 @@ Symbols and footprints have only been created for EasyEDA. We would welcome cont
 * **`F7_RST`** - Connected to the `RESET` button on the board. Connect to the `F7_RST` IO on the Core-Compute to provide reset via button functionality.
 * **`USB_D_P` & `USB_D_N`** - USB differential pairs. Requires a `90Ω` controlled-impedance differential pair to the Core-Compute module.
 * **`F7_Boot`** - Connected to the `BOOT` button on the board. Connect to the `F7_Boot` IO on the Core-Compute to provide DFU boot capabiltiies.
-* **`5V`** - Direct connection to the `5V` power supply from the USB.
+* **`5V`** - Connection to the `5V` power supply from the USB (via a diode).
 
 ### Power
 
 Includes an `NCP1597AMNTWG` switching power supply that outputs up to `2A` of `3.3V` voltage, as well as passing through `5V` from the USB.
 
-## Design
+## Release Notes
+
+### v1.c
+
+* Removed `3V3` LED.
+* Added diode to prevent backfeeding to USB.
+
+![Schematic of the board.](Schematic_v1.c.svg)
+
+### v1.b
+
+* Initial check-in
 
 ![Schematic of the board.](Schematic_v1.b.svg)
