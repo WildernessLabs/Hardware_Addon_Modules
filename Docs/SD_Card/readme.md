@@ -8,7 +8,8 @@ Micro SD-Card addon.
 
 ### EDA Symbol & Footprint
 
-![](Symbol_Footprint.png)
+![](Symbol.png)
+![](Footprint.png)
 
 Symbols and footprints have only been created for EasyEDA. We would welcome contributions here!
 * **[EasyEDA](https://easyeda.com/component/57e5fa36b2444a3a84e1e210c4eb4410)**
@@ -17,14 +18,15 @@ Symbols and footprints have only been created for EasyEDA. We would welcome cont
 
 | Pin(s) | Function |
 |--------|----------|
-| 1-6, 8, 11, 13, 15, 17, 19, 21, 23-31 | `GND` |
-| 7 | `SD_IN_L`|
-| 12 | `SD_CLK` |
-| 14 | `SD_CMD` |
-| 16 | `SD_D1` |
-| 18 | `SD_D0` |
-| 20 | `SD_D2` |
-| 22 | `SD_D3` |
+| 1, 24 | `3V3`|
+| 2, 4, 6, 8, 10, 12-14, 16, 18-23 | `GND` |
+| 3 | `SD_IN_L`|
+| 5 | `SD_D3` |
+| 7 | `SD_D2` |
+| 9 | `SD_CMD` |
+| 11 | `SD_CLK` |
+| 15 | `SD_D1` |
+| 17 | `SD_D0` |
 
 ### IO
 
@@ -33,7 +35,17 @@ Symbols and footprints have only been created for EasyEDA. We would welcome cont
 * **`SD_CMD`** - SD Card *command* signal.
 * **`SD_Dx`** - SD Card *data* lines.
 
+## Release Notes
+
+## v1.c
+
+* Reduced castellations from 3 sides to 2, to lower fabrication cost and make it easier to panelize.
+* Initial panel checkin.
+
+## v1.b
+ 
+* Initial design check-in.
 
 ## Design
 
-![](Schematic_v1.b.svg)
+![](Schematic_v1.c.svg)
