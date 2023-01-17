@@ -8,8 +8,9 @@ Micro SD-Card addon.
 
 ### EDA Symbol & Footprint
 
-![](Symbol.png)
-![](Footprint.png)
+| Symbol | Footprint |
+|--------|-----------|
+| ![](Symbol.png) | ![](Footprint.png) |
 
 Symbols and footprints have only been created for EasyEDA. We would welcome contributions here!
 * **[EasyEDA](https://easyeda.com/component/57e5fa36b2444a3a84e1e210c4eb4410)**
@@ -40,12 +41,14 @@ Symbols and footprints have only been created for EasyEDA. We would welcome cont
 ## v1.c
 
 * Reduced castellations from 3 sides to 2, to lower fabrication cost and make it easier to panelize.
-* Initial panel checkin.
+* Initial panel check-in.
+
+![](Schematic_v1.c.svg)
 
 ## v1.b
  
 * Initial design check-in.
 
-## Design
+![](Schematic_v1.b.svg)
 
-![](Schematic_v1.c.svg)
+## Design
