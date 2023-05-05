@@ -53,6 +53,13 @@ For minimum functionality, please refer to the following reference application:
 
 ![Simple Reference Application](Reference_Application_Simple.svg)
 
+#### Enable Switch
+
+To use an enable switch with the module, wire up a switch that pulls the `3V3_EN` pin to `GND` in order to turn off:
+
+![Schematic showing enable switch design.](Enable_Switch.png)
+
+
 ## Release Notes
 
 ### v1.d
