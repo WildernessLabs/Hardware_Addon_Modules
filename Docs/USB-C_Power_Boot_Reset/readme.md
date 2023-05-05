@@ -47,7 +47,17 @@ Symbols and footprints have only been created for EasyEDA. We would welcome cont
 
 Includes an `NCP1597AMNTWG` switching power supply that outputs up to `2A` of `3.3V` voltage, as well as passing through `5V` from the USB.
 
+### Reference Application
+
+For minimum functionality, please refer to the following reference application:
+
+![Simple Reference Application](Reference_Application_Simple.svg)
+
 ## Release Notes
+
+### v1.d
+
+This revision optimized the layout of the board to move the `BOOT` and `RST` buttons closer to the USB connector so designs that used this could cover the rest of the board. 
 
 ### v1.c
 
