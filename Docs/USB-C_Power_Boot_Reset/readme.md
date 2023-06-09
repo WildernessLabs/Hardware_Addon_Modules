@@ -45,7 +45,7 @@ Symbols and footprints have only been created for EasyEDA. We would welcome cont
 
 ### Power
 
-Includes an `NCP1597AMNTWG` switching power supply that outputs up to `2A` of `3.3V` voltage, as well as passing through `5V` from the USB.
+Includes an `TPS54329EDDA` switching power supply that outputs up to `3A` of `3.3V` voltage, as well as passing through `5V` from the USB.
 
 ### Reference Application
 
@@ -59,8 +59,20 @@ To use an enable switch with the module, wire up a switch that pulls the `3V3_EN
 
 ![Schematic showing enable switch design.](Enable_Switch.png)
 
+### Board Schematic
+
+![Schematic of Board](v2.b/Schematic_v2.b.svg)
 
 ## Release Notes
+
+### v2.b
+
+* Fixed `MCU_VBUS` bug in which an external 5V power source would pull it high.
+* Added a power filter cap to USB power.
+
+### v2.a
+
+Updated power supply and MOSFET that had gone obsolete/EoL. 
 
 ### v1.d
 
@@ -73,10 +85,6 @@ This revision changed the design to prevent the 3V3 and 5V diodes from draining 
 * Removed `3V3` LED.
 * Added diode to prevent backfeeding to USB.
 
-![Schematic of the board.](Schematic_v1.c.svg)
-
 ### v1.b
 
 * Initial check-in
-
-![Schematic of the board.](Schematic_v1.b.svg)
