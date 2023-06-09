@@ -40,4 +40,21 @@ This design has three major circuits:
 * **Battery Charger** - The battery charger circuit uses an `MCP73831T` battery charging IC to provide charging functionality and includes a MOSFET (`Q7`) which will shut off the battery output when charging so that voltage regulator provides power from the solar panel while also charging the battery. The `R18` resistor determines how much current is available for battery charging, and is installed with a `4.7kΩ` resistor which tells the charger IC to use up to `200mA` of current for charging.
 * **Solar Voltage Reference** - A voltage divider and voltage suppressing circuit that provides a `3.3V` analog input safe reference signal indicating the intensity of solar radiation.
 
-![](Schematic_v1.b.svg)
+### Schematic
+
+![Schematic](v1.d/Schematic_v1.d.svg)
+
+## Release Notes
+
+## v1.d
+
+* Panelize design.
+* Change `C1` footprint to be `0402`.
+
+## v1.c
+
+* Minor BoM change to remove shunt.
+
+## v1.b
+
+Initial check-in.
