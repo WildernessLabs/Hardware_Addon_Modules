@@ -45,7 +45,7 @@ This design has three major circuits:
 
 ### Schematic
 
-![Schematic](v1.d/Schematic_v1.d.svg)
+![Schematic](v2.b/Schematic_v2.b.svg)
 
 ## Release Notes
 
