@@ -8,7 +8,9 @@ This module accepts 6V solar panel power input, handles battery charging, and pr
 
 ### EDA Symbol & Footprint
 
-![](Symbol_Footprint.png)
+| Symbol | Footprint |
+|--------|-----------|
+| ![](Symbol.png) | ![](Footprint.png) |
 
 Symbols and footprints have only been created for EasyEDA. We would welcome contributions here!
 * **[EasyEDA](https://easyeda.com/component/f10842701d354ea69fdb1ca4361015a1)**
@@ -20,7 +22,8 @@ Symbols and footprints have only been created for EasyEDA. We would welcome cont
 | 1-3, 7-11 | `GND` |
 | 4-6 | `SOLAR_IN` |
 | 12-13 | `VBAT` |
-| 14-17 | `V_MAIN` |
+| 14-16 | `V_MAIN` |
+| 17 | `BATT_DISABLE` |
 | 18 | `SOLAR_V` |
 
 ### IO Information
