@@ -8,7 +8,9 @@ This module accepts 6V solar panel power input, handles battery charging, and pr
 
 ### EDA Symbol & Footprint
 
-![](Symbol_Footprint.png)
+| Symbol | Footprint |
+|--------|-----------|
+| ![](Symbol.png) | ![](Footprint.png) |
 
 Symbols and footprints have only been created for EasyEDA. We would welcome contributions here!
 * **[EasyEDA](https://easyeda.com/component/f10842701d354ea69fdb1ca4361015a1)**
@@ -20,14 +22,15 @@ Symbols and footprints have only been created for EasyEDA. We would welcome cont
 | 1-3, 7-11 | `GND` |
 | 4-6 | `SOLAR_IN` |
 | 12-13 | `VBAT` |
-| 14-17 | `VOUT` |
+| 14-16 | `V_MAIN` |
+| 17 | `BATT_DISABLE` |
 | 18 | `SOLAR_V` |
 
 ### IO Information
 
 * **`SOLAR_IN`** - Solar power input. Hook this to the positive pole of your solar panel output.
 * **`VBAT`** - Battery charging output. Connect this to the positive terminal of your LiPo/LiIon battery.
-* **`VOUT`** - When the circuit is plugged into a solar panel in the sun, `VOUT` will provide up to `3A` of `4.6V` regulated power. `R11` can be replaced to alter output voltage. See schematic notes for more information. It's just under `5V` to prevent backfeeding into USB power. When the solar panel is not in the sun, `VOUT` will output whatever voltage/power is available from the battery.
+* **`V_MAIN`** - When the circuit is plugged into a solar panel in the sun, `V_MAIN` will provide up to `3A` of `4.6V` regulated power. `R11` can be replaced to alter output voltage. See schematic notes for more information. It's just under `5V` to prevent backfeeding into USB power. When the solar panel is not in the sun, `V_MAIN` will output whatever voltage/power is available from the battery.
 * **`SOLAR_V`** - Reference voltage indicating the relative power output of the solar panel. Can be used to measure solar radiation intensity. Voltage divided to output approximately `3.0V` when solar panel is in full sun and clamped so that it will never go above `3.3V`, so it's safe for the analog input ports on the Meadow.
 
 ## Design
@@ -42,9 +45,18 @@ This design has three major circuits:
 
 ### Schematic
 
-![Schematic](v1.d/Schematic_v1.d.svg)
+![Schematic](v2.b/Schematic_v2.b.svg)
 
 ## Release Notes
+
+## v2.b
+
+* added diode after power supply to not back-power 6V_Solar 
+* pull `BATT_DISABLE` off of the solar ADC circuit to not affect ADC readings
+
+## v2.a
+
+* BREAKING CHANGE: added `BATT_DISABLE` and changed `VOUT` to `V_MAIN` to ensure external battery control and not overvoltage the battery
 
 ## v1.d
 

@@ -29,7 +29,7 @@ Symbols and footprints have only been created for EasyEDA. We would welcome cont
 | 20 | `USB_D_N` |
 | 21 | `GND` |
 | 22 | `F7_BOOT` |
-| 23 | `3V3` Out |
+| 23 | `VBUS`  |
 | 24-27 | `5V` USB Power Out |
 | 28-37 | `GND` |
 
@@ -61,9 +61,17 @@ To use an enable switch with the module, wire up a switch that pulls the `3V3_EN
 
 ### Board Schematic
 
-![Schematic of Board](v2.b/Schematic_v2.b.svg)
+![Schematic of Board](v4.a/Schematic_v4.a.svg)
 
 ## Release Notes
+
+### v4.a
+
+BREAKING CHANGE: Added `VBUS` so that the solar battery charger could know when to disconnect battery
+
+### v3.a
+
+Switched to another DC Switching Buck that accepts a lower input voltage to enable it to run from battery
 
 ### v2.b
 
